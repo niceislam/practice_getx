@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'getx_part/home/home_screen.dart';
-import 'image_picker/home/image_picker_home.dart';
+import 'ajker_app/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImagePickerHome(),
+      home: CalculatorScreen(),
     );
   }
 }
